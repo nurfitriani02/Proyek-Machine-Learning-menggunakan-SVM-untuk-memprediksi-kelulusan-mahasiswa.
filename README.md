@@ -1,6 +1,6 @@
 # SVM-Klasifikasi-Kelulusan-Mahasiswa.
 Proyek Machine Learning menggunakan SVM untuk memprediksi kelulusan mahasiswa.
-# 🎓 Proyek Klasifikasi Kelulusan Mahasiswa Menggunakan Support Vector Machine (SVM)
+# Proyek Klasifikasi Kelulusan Mahasiswa Menggunakan Support Vector Machine (SVM)
 
 ## Deskripsi Proyek
 
@@ -8,7 +8,7 @@ Proyek ini bertujuan untuk membangun dan mengevaluasi model klasifikasi mengguna
 
 Analisis dilakukan melalui serangkaian langkah, mulai dari Eksplorasi Data (EDA), Preprocessing, Training Model SVM dengan berbagai kernel (Linear dan RBF), hingga Interpretasi dan *Deployment* Sederhana.
 
-## 🗂️ Struktur File dan Dataset
+## Struktur File dan Dataset
 
 Proyek ini diimplementasikan dalam format Google Colab Notebook.
 
@@ -25,7 +25,7 @@ Proyek ini diimplementasikan dalam format Google Colab Notebook.
 | Kategorikal | Status kehadiran, Keaktifan organisasi |
 | Label | **Label** (Target: 'Lulus' / 'Belum Lulus') |
 
-## 🚀 Persiapan dan Cara Menjalankan Proyek
+## Persiapan dan Cara Menjalankan Proyek
 
 ### 1. Kebutuhan (Prerequisites)
 
@@ -43,7 +43,7 @@ Proyek ini diimplementasikan dalam format Google Colab Notebook.
     ```
 4.  **Jalankan Semua Sel:** Jalankan semua sel secara berurutan, mulai dari Bagian A hingga Bagian F. Pastikan untuk memberikan izin akses ke Google Drive saat diminta.
 
-## 📋 Ikhtisar Metodologi
+## Ikhtisar Metodologi
 
 ### Preprocessing
 * **Missing Values:** Ditangani menggunakan `SimpleImputer` (Mean untuk numerik, Most Frequent untuk kategorikal).
@@ -58,7 +58,7 @@ Dua model SVM dilatih dan dievaluasi:
 
 Hyperparameter tuning dasar dilakukan untuk parameter `C` dan `gamma` untuk mencari kombinasi model terbaik.
 
-## 📊 Hasil Utama dan Metrik Terbaik
+## Hasil Utama dan Metrik Terbaik
 
 Berikut adalah ringkasan hasil dari model terbaik yang ditemukan melalui *hyperparameter tuning*:
 
@@ -74,7 +74,7 @@ Berikut adalah ringkasan hasil dari model terbaik yang ditemukan melalui *hyperp
 * **Fitur Dominan:** Fitur **IPK** dan **Nilai Mata Kuliah Tertentu** tampak menjadi prediktor paling kuat untuk status kelulusan.
 * **Kecenderungan IPK Rendah:** Model mengkonfirmasi bahwa mahasiswa dengan IPK di bawah rata-rata memiliki kecenderungan tinggi untuk masuk ke kategori 'Belum Lulus'.
 
-## ⚙️ Fungsi Prediksi Sederhana
+## Fungsi Prediksi Sederhana
 
 Proyek diakhiri dengan fungsi Python sederhana `predict_status()` yang memungkinkan pengguna memasukkan nilai fitur baru dan mendapatkan prediksi status kelulusan dari model yang telah dilatih.
 
